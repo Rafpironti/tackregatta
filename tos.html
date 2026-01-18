@@ -5,306 +5,455 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termini e Condizioni - TackRegatta</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
             line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
             color: #333;
-        }
-        h1 { color: #0066cc; }
-        h2 { color: #0066cc; margin-top: 30px; }
-        h3 { color: #555; margin-top: 20px; }
-    </style>
-</head>
-<body>
-
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termini e Condizioni - TackRegatta</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
+            background-color: #f5f5f7;
             padding: 20px;
-            color: #333;
-            background-color: #fff;
         }
-        h1 { 
-            color: #0066cc; 
-            font-size: 28px;
-            margin-bottom: 8px;
-            text-align: center;
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        .subtitle {
-            color: #0066cc;
-            font-size: 24px;
-            text-align: center;
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1d1d1f;
             margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #007AFF;
         }
-        h2 { 
-            color: #0066cc; 
-            margin-top: 30px; 
-            font-size: 20px;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 8px;
-        }
-        h3 { 
-            color: #555; 
-            margin-top: 20px; 
-            font-size: 18px;
-        }
-        p {
-            margin: 12px 0;
-            text-align: justify;
-        }
-        ul {
-            margin: 12px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin: 8px 0;
-        }
-        strong {
-            color: #000;
-        }
-        .important {
-            background-color: #fff3cd;
-            padding: 12px;
-            border-left: 4px solid #ffc107;
-            margin: 16px 0;
-        }
-        .footer {
+        
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1d1d1f;
             margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #515154;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #515154;
+        }
+        
+        strong {
+            color: #1d1d1f;
+            font-weight: 600;
+        }
+        
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .info-box {
+            background-color: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #007AFF;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .footer {
+            margin-top: 50px;
             padding-top: 20px;
-            border-top: 2px solid #0066cc;
+            border-top: 1px solid #d2d2d7;
             text-align: center;
-            color: #666;
             font-size: 14px;
+            color: #86868b;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
         }
     </style>
 </head>
 <body>
-
-<h1>TERMINI E CONDIZIONI DEL SERVIZIO</h1>
-<div class="subtitle">TackRegatta</div>
-
-<h2>1. OGGETTO E ACCETTAZIONE</h2>
-
-<p>I presenti Termini e Condizioni del Servizio ("Termini") regolano l'utilizzo dell'applicazione mobile TackRegatta ("App" o "Servizio") sviluppata e gestita da Ferruccio Pironti, con sede in Via Pasquale Paoli, 104 - 07041 Alghero (SS), Italia ("Titolare").</p>
-
-<p>Utilizzando l'App, l'Utente dichiara di aver letto, compreso e accettato integralmente i presenti Termini. L'utilizzo del Servizio è subordinato all'accettazione esplicita di questi Termini al primo avvio dell'applicazione.</p>
-
-<p><strong>Età minima:</strong> L'utilizzo dell'App è riservato a soggetti che abbiano compiuto almeno 16 anni di età. Gli utenti minori di 18 anni devono utilizzare l'App sotto la supervisione di un genitore o tutore legale.</p>
-
-<h2>2. DESCRIZIONE DEL SERVIZIO</h2>
-
-<p>TackRegatta è un'applicazione di navigazione velica progettata per assistere i velisti durante regate e navigazioni sportive, fornendo:</p>
-
-<ul>
-    <li>Tracciamento GPS in tempo reale</li>
-    <li>Gestione percorsi e waypoint</li>
-    <li>Cronometro da regata e timer di partenza</li>
-    <li>Visualizzazione dati di navigazione (velocità, rotta, direzione del vento)</li>
-    <li>Statistiche e analisi delle performance</li>
-    <li>Sistema di widget personalizzabili</li>
-</ul>
-
-<p>Il Servizio è fornito in modalità <strong>freemium</strong>: funzionalità base gratuite con possibilità di sbloccare funzionalità premium tramite acquisti in-app o abbonamenti.</p>
-
-<h2>3. REGISTRAZIONE E ACCOUNT UTENTE</h2>
-
-<p>L'utilizzo di alcune funzionalità dell'App può richiedere la creazione di un account personale. L'Utente si impegna a:</p>
-
-<ul>
-    <li>Fornire informazioni veritiere, accurate e aggiornate</li>
-    <li>Mantenere riservate le proprie credenziali di accesso</li>
-    <li>Essere l'unico responsabile di tutte le attività svolte tramite il proprio account</li>
-    <li>Notificare immediatamente il Titolare in caso di accesso non autorizzato</li>
-</ul>
-
-<p>Il Titolare si riserva il diritto di sospendere o eliminare account che violino i presenti Termini o che risultino inattivi per periodi prolungati.</p>
-
-<h2>4. LICENZA D'USO</h2>
-
-<p>Il Titolare concede all'Utente una licenza personale, non esclusiva, non trasferibile e revocabile per l'utilizzo dell'App esclusivamente per scopi personali e non commerciali.</p>
-
-<p><strong>È vietato:</strong></p>
-
-<ul>
-    <li>Copiare, modificare, distribuire, vendere o cedere il software</li>
-    <li>Decompilare, disassemblare o tentare di estrarre il codice sorgente</li>
-    <li>Rimuovere o alterare informazioni sul copyright o marchi registrati</li>
-    <li>Utilizzare l'App per scopi illegali o non autorizzati</li>
-    <li>Caricare contenuti offensivi, diffamatori o che violino diritti di terzi</li>
-</ul>
-
-<h2>5. LIMITAZIONI DI RESPONSABILITÀ</h2>
-
-<h3>5.1 Natura ausiliaria del Servizio</h3>
-
-<p>TackRegatta è uno <strong>strumento di assistenza alla navigazione</strong> a scopo sportivo e ricreativo. <strong>NON</strong> sostituisce:</p>
-
-<ul>
-    <li>Strumenti nautici professionali omologati</li>
-    <li>Carte nautiche ufficiali</li>
-    <li>Equipaggiamento di sicurezza obbligatorio</li>
-    <li>Competenze nautiche e buon senso marinaro</li>
-</ul>
-
-<h3>5.2 Disclaimer GPS e precisione dati</h3>
-
-<p>Il Servizio utilizza segnali GPS forniti dal dispositivo mobile dell'Utente. Il Titolare non garantisce:</p>
-
-<ul>
-    <li>Precisione assoluta dei dati di posizione, velocità, rotta o distanza</li>
-    <li>Disponibilità continuativa del segnale GPS</li>
-    <li>Assenza di interferenze, errori di triangolazione o degradazione del segnale</li>
-</ul>
-
-<p><strong>Le informazioni fornite possono contenere errori o ritardi.</strong> L'Utente è consapevole che fattori ambientali (condizioni meteo, ostacoli, configurazione hardware) possono influenzare negativamente la precisione dei dati.</p>
-
-<h3>5.3 Sicurezza in mare</h3>
-
-<p>L'Utente riconosce e accetta che:</p>
-
-<ul>
-    <li><strong>La sicurezza della navigazione è responsabilità esclusiva del comandante dell'imbarcazione</strong></li>
-    <li>L'App non fornisce informazioni su pericoli alla navigazione, ostacoli sommersi, traffico marittimo o condizioni meteo-marine</li>
-    <li>L'uso dell'App durante la navigazione deve avvenire nel rispetto del Codice della Navigazione e delle normative sulla sicurezza in mare</li>
-    <li><strong>È vietato utilizzare l'App come unico strumento di navigazione</strong></li>
-</ul>
-
-<h3>5.4 Esclusione di responsabilità</h3>
-
-<p>Nei limiti consentiti dalla legge applicabile, il Titolare:</p>
-
-<ul>
-    <li>Non risponde di danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o impossibilità di uso dell'App</li>
-    <li>Non garantisce che il Servizio sia sempre disponibile, ininterrotto, sicuro o privo di errori</li>
-    <li>Non è responsabile per perdita di dati, incidenti nautici, danni a persone o cose derivanti dall'affidamento sui dati forniti dall'App</li>
-</ul>
-
-<div class="important">
-    <strong>L'UTENTE UTILIZZA L'APP A PROPRIO RISCHIO E PERICOLO.</strong>
-</div>
-
-<h2>6. PROPRIETÀ INTELLETTUALE</h2>
-
-<p>Tutti i diritti di proprietà intellettuale relativi all'App, inclusi software, interfacce grafiche, loghi, testi e contenuti, sono di esclusiva proprietà del Titolare o dei suoi licenzianti.</p>
-
-<p>Il marchio <strong>"TackRegatta"</strong> e tutti i marchi correlati sono proprietà del Titolare. È vietato l'uso non autorizzato di tali marchi.</p>
-
-<p>I dati generati dall'Utente (percorsi, statistiche personali) rimangono di proprietà dell'Utente, che concede al Titolare una licenza limitata per fornire il Servizio.</p>
-
-<h2>7. ACQUISTI IN-APP E ABBONAMENTI</h2>
-
-<p>Le funzionalità premium sono accessibili tramite:</p>
-
-<ul>
-    <li>Acquisti in-app singoli (funzionalità permanenti)</li>
-    <li>Abbonamenti periodici (mensili/annuali)</li>
-</ul>
-
-<h3>7.1 Condizioni di pagamento</h3>
-
-<ul>
-    <li>I pagamenti sono gestiti tramite Apple App Store secondo le relative condizioni</li>
-    <li>I prezzi sono indicati nell'App al momento dell'acquisto e includono IVA ove applicabile</li>
-    <li>L'addebito avviene tramite l'account Apple dell'Utente</li>
-</ul>
-
-<h3>7.2 Abbonamenti</h3>
-
-<ul>
-    <li>Gli abbonamenti si rinnovano automaticamente se non cancellati prima della scadenza</li>
-    <li>La cancellazione deve essere effettuata tramite le impostazioni dell'account Apple, non dall'App</li>
-    <li>La cancellazione è effettiva dal termine del periodo già pagato</li>
-    <li>Non sono previsti rimborsi per periodi parziali non utilizzati</li>
-</ul>
-
-<h3>7.3 Diritto di recesso</h3>
-
-<p>Ai sensi del D.Lgs. 206/2005 (Codice del Consumo), l'Utente ha diritto di recedere dall'acquisto entro 14 giorni, salvo accettazione esplicita di rinuncia al recesso per contenuti digitali forniti immediatamente.</p>
-
-<h2>8. DISPONIBILITÀ E MODIFICHE DEL SERVIZIO</h2>
-
-<p>Il Titolare si riserva il diritto di:</p>
-
-<ul>
-    <li>Modificare, sospendere o interrompere il Servizio (totalmente o parzialmente) in qualsiasi momento</li>
-    <li>Aggiornare l'App per miglioramenti, correzioni o adeguamenti normativi</li>
-    <li>Modificare i presenti Termini previa notifica agli Utenti</li>
-</ul>
-
-<p>Le modifiche sostanziali ai Termini saranno comunicate tramite l'App o via email con almeno 30 giorni di preavviso. L'uso continuato del Servizio dopo la notifica implica accettazione delle modifiche.</p>
-
-<h2>9. PROTEZIONE DEI DATI PERSONALI</h2>
-
-<p>Il trattamento dei dati personali degli Utenti è disciplinato dalla Privacy Policy, disponibile nell'App e consultabile al momento della registrazione. L'Utente è invitato a prenderne visione prima dell'utilizzo del Servizio.</p>
-
-<h2>10. CANCELLAZIONE ACCOUNT E DATI</h2>
-
-<p>L'Utente può richiedere la cancellazione del proprio account e dei dati associati in qualsiasi momento tramite:</p>
-
-<ul>
-    <li>Funzione dedicata nelle impostazioni dell'App</li>
-    <li>Richiesta via email a: support@tackregatta.com</li>
-</ul>
-
-<p>La cancellazione comporta la perdita permanente di tutti i dati dell'account (percorsi, statistiche, preferenze). Il Titolare procederà alla cancellazione entro 30 giorni dalla richiesta, fatti salvi gli obblighi di conservazione previsti dalla legge.</p>
-
-<h2>11. RISOLUZIONE E SOSPENSIONE</h2>
-
-<p>Il Titolare può sospendere o risolvere il rapporto con l'Utente in caso di:</p>
-
-<ul>
-    <li>Violazione dei presenti Termini</li>
-    <li>Utilizzo fraudolento o abusivo del Servizio</li>
-    <li>Comportamenti che danneggino altri Utenti o il Titolare</li>
-    <li>Mancato pagamento di abbonamenti o acquisti</li>
-</ul>
-
-<p>L'Utente può cessare l'utilizzo del Servizio in qualsiasi momento disinstallando l'App e cancellando il proprio account.</p>
-
-<h2>12. LEGGE APPLICABILE E FORO COMPETENTE</h2>
-
-<p>I presenti Termini sono regolati dalla <strong>legge italiana</strong>.</p>
-
-<p>Per qualsiasi controversia relativa all'interpretazione, esecuzione o risoluzione dei presenti Termini sarà competente in via esclusiva il <strong>Foro di Roma</strong>.</p>
-
-<p>I consumatori residenti nell'Unione Europea mantengono i diritti previsti dalle normative di tutela del consumatore del proprio paese di residenza.</p>
-
-<h2>13. CONTATTI</h2>
-
-<p>Per informazioni, assistenza o reclami relativi al Servizio:</p>
-
-<p>
-<strong>Titolare:</strong> Ferruccio Pironti<br>
-<strong>Indirizzo:</strong> Via Pasquale Paoli, 104 - 07041 Alghero (SS), Italia<br>
-<strong>Email:</strong> support@tackregatta.com<br>
-<strong>PEC:</strong> rafpironti@pec.it
-</p>
-
-<h2>14. DISPOSIZIONI FINALI</h2>
-
-<ul>
-    <li>Qualora una o più clausole dei presenti Termini fossero dichiarate nulle o inefficaci, le restanti clausole manterranno piena validità ed efficacia</li>
-    <li>L'eventuale tolleranza del Titolare rispetto a violazioni dei Termini non costituisce rinuncia ai diritti derivanti dalle clausole violate</li>
-    <li>I presenti Termini costituiscono l'intero accordo tra le parti relativamente all'uso del Servizio</li>
-</ul>
-
-<div class="footer">
-    <p><strong>Data ultimo aggiornamento:</strong> 18 gennaio 2026</p>
-    <p><strong>Versione:</strong> 1.0</p>
-    <p>&copy; 2025 Ferruccio Pironti - Tutti i diritti riservati</p>
-</div>
-
+    <div class="container">
+        <h1>TERMINI E CONDIZIONI D'USO</h1>
+        
+        <p><strong>Data di entrata in vigore:</strong> 18 gennaio 2026</p>
+        
+        <h2>1. INFORMAZIONI GENERALI</h2>
+        
+        <h3>1.1 Titolare del Servizio</h3>
+        <p>TackRegatta è un'applicazione mobile sviluppata e gestita da:</p>
+        <div class="info-box">
+            <p><strong>Ferruccio Pironti</strong><br>
+            Via Pasquale Paoli 104<br>
+            07041 Alghero (SS), Italia<br>
+            Email: <a href="mailto:rafpironti@pec.it">rafpironti@pec.it</a></p>
+        </div>
+        
+        <h3>1.2 Accettazione dei Termini</h3>
+        <p>Utilizzando l'applicazione TackRegatta (di seguito "l'App"), l'utente accetta integralmente i presenti Termini e Condizioni d'Uso. Se non si accettano questi termini, non si deve utilizzare l'App.</p>
+        
+        <h3>1.3 Modifiche ai Termini</h3>
+        <p>Ci riserviamo il diritto di modificare i presenti Termini in qualsiasi momento. Le modifiche sostanziali saranno comunicate tramite notifica in-app o email. L'uso continuato dell'App dopo tali modifiche costituisce accettazione dei nuovi termini.</p>
+        
+        <h2>2. DESCRIZIONE DEL SERVIZIO</h2>
+        
+        <h3>2.1 Funzionalità dell'App</h3>
+        <p>TackRegatta è un'applicazione di navigazione velica progettata per regatisti e velisti che offre:</p>
+        <ul>
+            <li>Visualizzazione della posizione GPS in tempo reale su mappa nautica</li>
+            <li>Gestione di waypoint e percorsi di regata</li>
+            <li>Sistema di timer per sequenze di partenza regata</li>
+            <li>Widget personalizzabili per visualizzazione dati di navigazione</li>
+            <li>Gestione di regate con stati (bozza, attiva, completata, archiviata)</li>
+            <li>Calcoli di navigazione (VMG, drift, course over ground)</li>
+            <li>Export dati in formato GPX (funzionalità Premium)</li>
+            <li>Statistiche e analytics avanzate (funzionalità Premium)</li>
+        </ul>
+        
+        <h3>2.2 Requisiti Tecnici</h3>
+        <p>L'App richiede:</p>
+        <ul>
+            <li>Dispositivo iPhone 12 o successivo</li>
+            <li>Sistema operativo iOS 15.0 o versione successiva</li>
+            <li>Connessione dati o Wi-Fi per funzioni cloud (opzionale)</li>
+            <li>Accesso GPS/localizzazione (essenziale per funzionamento)</li>
+            <li>Spazio di archiviazione sufficiente per mappe e dati</li>
+        </ul>
+        
+        <h2>3. REGISTRAZIONE E ACCOUNT</h2>
+        
+        <h3>3.1 Età Minima</h3>
+        <p>L'utilizzo dell'App è consentito ai maggiori di 16 anni. Gli utenti di età compresa tra 16 e 18 anni devono avere il consenso di un genitore o tutore legale.</p>
+        
+        <h3>3.2 Responsabilità dell'Account</h3>
+        <p>L'utente è responsabile della sicurezza del proprio dispositivo e dei dati memorizzati nell'App. In caso di accesso non autorizzato, l'utente deve contattarci immediatamente.</p>
+        
+        <h2>4. MODELLO FREEMIUM E LICENZA D'USO</h2>
+        
+        <h3>4.1 Versione Gratuita</h3>
+        <p>L'App è distribuita con modello freemium. La versione gratuita include funzionalità base di navigazione:</p>
+        <ul>
+            <li>Visualizzazione mappa e posizione GPS con heading</li>
+            <li>Creazione e gestione fino a 3 regate salvate</li>
+            <li>Creazione e gestione fino a 20 waypoint totali</li>
+            <li>2 widget base (velocità, heading)</li>
+            <li>Timer regata base</li>
+            <li>Tutte le funzionalità di accessibilità</li>
+        </ul>
+        
+        <h3>4.2 Licenza Limitata</h3>
+        <p>Concediamo una licenza limitata, non esclusiva, non trasferibile e revocabile per utilizzare l'App esclusivamente per scopi personali e non commerciali, nel rispetto dei presenti Termini.</p>
+        
+        <h2>5. ABBONAMENTI E ACQUISTI IN-APP</h2>
+        
+        <h3>5.1 Abbonamento Premium TackRegatta</h3>
+        <p>L'abbonamento Premium sblocca funzionalità avanzate dell'applicazione:</p>
+        
+        <div class="info-box">
+            <p><strong>Funzionalità Premium incluse:</strong></p>
+            <ul>
+                <li>Regate illimitate (nessun limite di salvataggio)</li>
+                <li>Waypoint illimitati</li>
+                <li>Tutti i widget disponibili (8+ tipi)</li>
+                <li>Export percorsi in formato GPX</li>
+                <li>Statistiche e analytics avanzate di performance</li>
+                <li>Calcoli VMG e performance dettagliati</li>
+                <li>Race replay con telemetria</li>
+                <li>Sincronizzazione cloud dei dati tra dispositivi</li>
+                <li>Temi e personalizzazioni avanzate</li>
+                <li>Supporto prioritario via email</li>
+            </ul>
+        </div>
+        
+        <h3>5.2 Piani di Abbonamento Disponibili</h3>
+        <p>L'abbonamento Premium è disponibile con le seguenti modalità:</p>
+        <ul>
+            <li><strong>Mensile</strong>: €4,99/mese con rinnovo automatico</li>
+            <li><strong>Annuale</strong>: €39,99/anno con rinnovo automatico (risparmio del 33%)</li>
+        </ul>
+        
+        <h3>5.3 Periodo di Prova Gratuito</h3>
+        <p>Offriamo un periodo di prova gratuito di 7 giorni per l'abbonamento Premium:</p>
+        <ul>
+            <li>Il periodo di prova inizia al momento dell'attivazione</li>
+            <li>Durante il periodo di prova si ha accesso completo a tutte le funzionalità Premium</li>
+            <li>Se non si cancella l'abbonamento almeno 24 ore prima della fine del periodo di prova, verrà automaticamente convertito in abbonamento a pagamento</li>
+            <li>La cancellazione durante il periodo di prova non comporta alcun addebito</li>
+            <li>Il periodo di prova è disponibile una sola volta per utente</li>
+        </ul>
+        
+        <div class="warning-box">
+            <p><strong>Importante:</strong> L'abbonamento si rinnova automaticamente alla fine del periodo di prova. Per evitare addebiti, cancellare l'abbonamento almeno 24 ore prima della scadenza del periodo di prova.</p>
+        </div>
+        
+        <h3>5.4 Rinnovo Automatico</h3>
+        <p>Tutti gli abbonamenti Premium si rinnovano automaticamente:</p>
+        <ul>
+            <li>Il rinnovo avviene automaticamente 24 ore prima della scadenza del periodo corrente</li>
+            <li>L'importo dell'abbonamento viene addebitato sull'account iTunes/App Store associato</li>
+            <li>Il periodo di abbonamento si estende automaticamente per la durata selezionata (mensile o annuale)</li>
+            <li>L'utente riceve una notifica di rinnovo imminente prima dell'addebito</li>
+        </ul>
+        
+        <h3>5.5 Gestione e Cancellazione Abbonamento</h3>
+        <p>L'utente può gestire e cancellare l'abbonamento in qualsiasi momento:</p>
+        <ol>
+            <li>Aprire l'app <strong>Impostazioni</strong> su iPhone</li>
+            <li>Toccare il proprio nome in alto</li>
+            <li>Selezionare <strong>Abbonamenti</strong></li>
+            <li>Scegliere <strong>TackRegatta Premium</strong></li>
+            <li>Toccare <strong>Annulla abbonamento</strong></li>
+        </ol>
+        <p>In alternativa, è possibile gestire l'abbonamento direttamente dall'App nella sezione <strong>Impostazioni → Privacy & TOS → Gestisci Consensi</strong>.</p>
+        
+        <div class="info-box">
+            <p><strong>Nota:</strong> La cancellazione dell'abbonamento:</p>
+            <ul>
+                <li>Diventa effettiva alla fine del periodo già pagato</li>
+                <li>Non comporta rimborsi proporzionali per il periodo non utilizzato</li>
+                <li>Mantiene l'accesso alle funzionalità Premium fino alla scadenza naturale</li>
+                <li>Dopo la scadenza, i dati rimangono salvati ma alcune funzionalità tornano limitate</li>
+            </ul>
+        </div>
+        
+        <h3>5.6 Modifiche ai Prezzi</h3>
+        <p>Ci riserviamo il diritto di modificare i prezzi degli abbonamenti:</p>
+        <ul>
+            <li>Le modifiche saranno comunicate con almeno 30 giorni di preavviso</li>
+            <li>Le modifiche si applicano ai nuovi abbonamenti o ai rinnovi successivi alla data di modifica</li>
+            <li>Gli abbonamenti attivi al prezzo precedente mantengono tale prezzo fino al rinnovo successivo alla modifica</li>
+            <li>L'utente può cancellare l'abbonamento prima del rinnovo se non accetta il nuovo prezzo</li>
+        </ul>
+        
+        <h3>5.7 Modalità di Pagamento</h3>
+        <p>Tutti i pagamenti sono gestiti tramite Apple App Store In-App Purchase:</p>
+        <ul>
+            <li>I pagamenti vengono elaborati attraverso l'account iTunes/App Store dell'utente</li>
+            <li>Apple è responsabile della gestione dei dati di pagamento e della sicurezza delle transazioni</li>
+            <li>Non raccogliamo né conserviamo direttamente informazioni di pagamento</li>
+            <li>Si applicano i <a href="https://www.apple.com/legal/internet-services/itunes/it/terms.html" target="_blank">Termini e Condizioni di Apple App Store</a></li>
+        </ul>
+        
+        <h3>5.8 Politica Rimborsi</h3>
+        <p>I rimborsi per gli acquisti in-app sono gestiti esclusivamente da Apple secondo le loro politiche:</p>
+        <ul>
+            <li>Per richiedere un rimborso, visitare <a href="https://reportaproblem.apple.com/" target="_blank">reportaproblem.apple.com</a></li>
+            <li>In alternativa, contattare il Supporto Apple attraverso l'App Store</li>
+            <li>Apple valuta le richieste di rimborso caso per caso secondo le proprie linee guida</li>
+            <li>Non siamo in grado di elaborare rimborsi direttamente</li>
+        </ul>
+        
+        <p>In conformità alla normativa italiana ed europea sul diritto di recesso:</p>
+        <ul>
+            <li>L'utente ha diritto di recesso entro 14 giorni dalla sottoscrizione</li>
+            <li>Il diritto decade se l'utente ha iniziato a utilizzare le funzionalità Premium dopo aver espressamente rinunciato al diritto di recesso</li>
+            <li>Per esercitare il diritto di recesso, contattare <a href="mailto:rafpironti@pec.it">rafpironti@pec.it</a></li>
+        </ul>
+        
+        <h3>5.9 Ripristino Acquisti</h3>
+        <p>Gli abbonamenti sono collegati all'account Apple ID:</p>
+        <ul>
+            <li>Gli acquisti possono essere ripristinati su dispositivi che utilizzano lo stesso Apple ID</li>
+            <li>Per ripristinare un acquisto, utilizzare la funzione "Ripristina Acquisti" disponibile nelle Impostazioni dell'App</li>
+            <li>Il ripristino è gratuito e può essere effettuato illimitatamente</li>
+        </ul>
+        
+        <h3>5.10 Condivisione Familiare</h3>
+        <p>L'abbonamento TackRegatta Premium supporta la Condivisione Familiare di Apple:</p>
+        <ul>
+            <li>Un abbonamento attivo può essere condiviso con fino a 5 membri della famiglia</li>
+            <li>Tutti i membri devono far parte dello stesso gruppo Famiglia di Apple</li>
+            <li>La condivisione deve essere configurata nelle impostazioni di Condivisione Familiare di iOS</li>
+        </ul>
+        
+        <h3>5.11 Dati e Contenuti Post-Scadenza</h3>
+        <p>Alla scadenza dell'abbonamento senza rinnovo:</p>
+        <ul>
+            <li><strong>Dati esistenti</strong>: Tutti i waypoint, regate e percorsi creati durante il periodo Premium rimangono salvati</li>
+            <li><strong>Limitazioni ripristinate</strong>: Le limitazioni della versione gratuita si riapplicano (max 3 regate, max 20 waypoint visibili)</li>
+            <li><strong>Dati eccedenti</strong>: I dati oltre i limiti free rimangono salvati ma non modificabili fino al rinnovo Premium</li>
+            <li><strong>Export e funzioni avanzate</strong>: Non più accessibili fino al rinnovo</li>
+            <li><strong>Cloud sync</strong>: Interrotto, dati locali preservati</li>
+        </ul>
+        
+        <div class="info-box">
+            <p><strong>Garanzia sui Dati:</strong> Non eliminiamo mai i dati dell'utente a causa della scadenza di un abbonamento. Tutti i contenuti creati rimangono di proprietà dell'utente e vengono preservati.</p>
+        </div>
+        
+        <h2>6. UTILIZZO DEI SERVIZI DI LOCALIZZAZIONE</h2>
+        
+        <h3>6.1 Consenso alla Localizzazione</h3>
+        <p>L'App richiede accesso alla localizzazione GPS del dispositivo per fornire le funzionalità di navigazione. L'utente deve concedere esplicitamente tale autorizzazione.</p>
+        
+        <h3>6.2 Precisione dei Dati GPS</h3>
+        <p>I dati di posizione forniti dall'App dipendono dalla qualità del segnale GPS e possono essere influenzati da:</p>
+        <ul>
+            <li>Condizioni meteorologiche</li>
+            <li>Ostruzioni fisiche (edifici, alberi, ecc.)</li>
+            <li>Configurazione del dispositivo</li>
+            <li>Limitazioni hardware del device</li>
+        </ul>
+        <p>Non garantiamo l'accuratezza assoluta dei dati di posizione e non siamo responsabili per eventuali imprecisioni.</p>
+        
+        <h2>7. RESPONSABILITÀ E LIMITAZIONI</h2>
+        
+        <h3>7.1 Uso a Proprio Rischio</h3>
+        <p>L'App è fornita "così com'è" e "come disponibile". L'utente utilizza l'App a proprio rischio e responsabilità.</p>
+        
+        <div class="warning-box">
+            <p><strong>IMPORTANTE - SICUREZZA IN MARE:</strong></p>
+            <ul>
+                <li>TackRegatta è uno strumento di supporto alla navigazione, NON sostituisce l'attrezzatura di sicurezza obbligatoria</li>
+                <li>Utilizzare sempre carte nautiche ufficiali e strumenti di navigazione certificati</li>
+                <li>Verificare sempre le informazioni con fonti ufficiali</li>
+                <li>Non affidarsi esclusivamente a questa App per decisioni critiche di navigazione</li>
+                <li>Rispettare sempre le normative marittime vigenti</li>
+            </ul>
+        </div>
+        
+        <h3>7.2 Limitazione di Responsabilità</h3>
+        <p>Nella misura massima consentita dalla legge applicabile, decliniamo ogni responsabilità per:</p>
+        <ul>
+            <li>Danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o impossibilità di usare l'App</li>
+            <li>Perdita di dati, interruzione di servizio, errori o imprecisioni</li>
+            <li>Danni causati da decisioni prese basandosi sui dati forniti dall'App</li>
+            <li>Incidenti, danni a persone o cose derivanti dall'uso dell'App durante la navigazione</li>
+        </ul>
+        
+        <h3>7.3 Interruzioni del Servizio</h3>
+        <p>Ci riserviamo il diritto di sospendere temporaneamente l'accesso all'App per manutenzione, aggiornamenti o altre ragioni tecniche, senza preavviso.</p>
+        
+        <h2>8. PROPRIETÀ INTELLETTUALE</h2>
+        
+        <h3>8.1 Diritti d'Autore</h3>
+        <p>Tutti i diritti di proprietà intellettuale relativi all'App, inclusi codice, grafica, design, contenuti e funzionalità, sono di proprietà esclusiva di Ferruccio Pironti.</p>
+        
+        <h3>8.2 Divieti</h3>
+        <p>È espressamente vietato:</p>
+        <ul>
+            <li>Copiare, modificare, distribuire o creare opere derivate dall'App</li>
+            <li>Decompilare, decodificare o effettuare reverse engineering del codice</li>
+            <li>Rimuovere o alterare avvisi di copyright o altri diritti proprietari</li>
+            <li>Utilizzare l'App per scopi commerciali senza autorizzazione scritta</li>
+            <li>Utilizzare bot, scraper o sistemi automatizzati per accedere all'App</li>
+        </ul>
+        
+        <h3>8.3 Contenuti degli Utenti</h3>
+        <p>I waypoint, percorsi e dati creati dall'utente rimangono di sua proprietà. Concediamo una licenza limitata per utilizzare tali dati esclusivamente nell'ambito delle funzionalità dell'App.</p>
+        
+        <h2>9. PRIVACY E PROTEZIONE DATI</h2>
+        
+        <h3>9.1 Informativa Privacy</h3>
+        <p>Il trattamento dei dati personali è regolato dalla nostra <a href="https://www.iubenda.com/privacy-policy/98799063" target="_blank">Informativa sulla Privacy</a>, che costituisce parte integrante dei presenti Termini.</p>
+        
+        <h3>9.2 Consensi GDPR</h3>
+        <p>L'utente può gestire i propri consensi relativi a:</p>
+        <ul>
+            <li>Analytics e miglioramento app</li>
+            <li>Marketing e comunicazioni promozionali</li>
+            <li>Firebase In-App Messaging</li>
+            <li>Mapbox Telemetry</li>
+        </ul>
+        <p>La gestione dei consensi è disponibile in: <strong>Impostazioni → Privacy & TOS → Gestisci Consensi</strong></p>
+        
+        <h3>9.3 Diritto alla Cancellazione</h3>
+        <p>L'utente ha diritto di richiedere la cancellazione completa dei propri dati in qualsiasi momento tramite la funzione "Elimina Tutti i Dati" nelle impostazioni dell'App o contattando <a href="mailto:rafpironti@pec.it">rafpironti@pec.it</a>.</p>
+        
+        <h2>10. MODIFICHE E AGGIORNAMENTI</h2>
+        
+        <h3>10.1 Aggiornamenti dell'App</h3>
+        <p>Ci riserviamo il diritto di modificare, sospendere o interrompere qualsiasi funzionalità dell'App in qualsiasi momento, con o senza preavviso.</p>
+        
+        <h3>10.2 Aggiornamenti Obbligatori</h3>
+        <p>Alcuni aggiornamenti potrebbero essere necessari per continuare a utilizzare l'App. L'utente accetta di installare tali aggiornamenti quando richiesto.</p>
+        
+        <h2>11. RISOLUZIONE CONTROVERSIE</h2>
+        
+        <h3>11.1 Legge Applicabile</h3>
+        <p>I presenti Termini sono regolati dalla legge italiana.</p>
+        
+        <h3>11.2 Foro Competente</h3>
+        <p>Per qualsiasi controversia derivante dai presenti Termini, sarà esclusivamente competente il Foro di Roma, Italia.</p>
+        
+        <h3>11.3 Risoluzione Alternativa</h3>
+        <p>Prima di intraprendere azioni legali, l'utente accetta di tentare una risoluzione amichevole della controversia contattando <a href="mailto:rafpironti@pec.it">rafpironti@pec.it</a>.</p>
+        
+        <h2>12. DISPOSIZIONI FINALI</h2>
+        
+        <h3>12.1 Separabilità</h3>
+        <p>Se una qualsiasi disposizione dei presenti Termini dovesse essere ritenuta invalida o inapplicabile, le restanti disposizioni rimarranno pienamente valide ed efficaci.</p>
+        
+        <h3>12.2 Rinuncia</h3>
+        <p>Il mancato esercizio di un diritto previsto dai presenti Termini non costituisce rinuncia a tale diritto.</p>
+        
+        <h3>12.3 Intero Accordo</h3>
+        <p>I presenti Termini, insieme all'Informativa sulla Privacy, costituiscono l'intero accordo tra l'utente e Ferruccio Pironti relativamente all'uso dell'App.</p>
+        
+        <h2>13. CONTATTI</h2>
+        
+        <p>Per qualsiasi domanda, richiesta o segnalazione relativa ai presenti Termini e Condizioni, contattare:</p>
+        
+        <div class="info-box">
+            <p><strong>Ferruccio Pironti</strong><br>
+            Email: <a href="mailto:rafpironti@pec.it">rafpironti@pec.it</a><br>
+            Indirizzo: Via Pasquale Paoli 104, 07041 Alghero (SS), Italia</p>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Ultima modifica:</strong> 18 gennaio 2026<br>
+            <strong>Versione:</strong> 2.0</p>
+            <p style="margin-top: 20px;">© 2026 Ferruccio Pironti - Tutti i diritti riservati</p>
+        </div>
+    </div>
 </body>
 </html>
